@@ -9,7 +9,7 @@ module.exports = {
   collectCoverageFrom: ['<rootDir>/src/**/*.ts'],
   testEnvironment: 'node',
   transform: {
-    '.t+\\.ts$': 'ts-jest'
+    '^.+\\.tsx?$': 'ts-jest'
   },
 
   // All imported modules in your tests should be mocked automatically
