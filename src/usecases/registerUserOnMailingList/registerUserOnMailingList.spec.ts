@@ -1,4 +1,4 @@
-import { IUserData } from '../IUserData'
+import { IUserData } from '../../entities/IUserData'
 
 describe('Register user on mailing list use case', () => {
   test('Should add user with complete data to mailing list', () => {
